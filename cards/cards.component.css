@@ -1,0 +1,9 @@
+.col-md-6{
+    width: 45%;
+}
+.row{
+    justify-content: space-evenly;
+}
+.author{
+    margin: 0px;
+}
