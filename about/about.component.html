@@ -1,0 +1,29 @@
+<h3 class="text-center mb-4">About the Authors</h3>
+<div class="container author-box">
+    <div class="author1 author">
+        <button class="btn btn-primary mt-2 author-btn" (click)="toggleAuthorInfo1()">James Carrey</button>
+        <ul class="list-group bg-dark text-light">
+            <li *ngFor="let info of infoReceived1">{{info}}</li>
+        </ul>
+    </div>
+    <div class="author2 author">
+        <button class="btn btn-primary mt-2 author-btn" (click)="toggleAuthorInfo2()">Vasnev Ludomir</button>
+        <ul class="list-group bg-dark text-light">
+            <li *ngFor="let info of infoReceived2">{{info}}</li>
+        </ul>
+    </div>
+    <div class="author3 author">
+        <button class="btn btn-primary mt-2 author-btn" (click)="toggleAuthorInfo3()">Crosby Sawyer</button>
+        <ul class="list-group bg-dark text-light">
+            <li *ngFor="let info of infoReceived3">{{info}}</li>
+        </ul>
+    </div>
+    <div class="author4 author">
+        <button class="btn btn-primary mt-2 author-btn" (click)="toggleAuthorInfo4()">Émile Loupe</button>
+        <ul class="list-group bg-dark text-light">
+            <li *ngFor="let info of infoReceived4">{{info}}</li>
+        </ul>
+    </div>
+</div>
+<br>
+<br>
